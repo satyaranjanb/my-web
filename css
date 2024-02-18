@@ -1,0 +1,10 @@
+button {
+ position: relative;
+ cursor: pointer;
+ animation: none;
+}
+
+@keyframes move {
+  0% { transform: translate(0, 0); }
+  100% { transform: translate(calc(var(--random-x))px, calc(var(--random-y))px); }
+}
